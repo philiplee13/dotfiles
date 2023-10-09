@@ -1,0 +1,6 @@
+# xtensions
+code --install-extension eamodio.gitlens
+code --install-extension golang.go
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+
