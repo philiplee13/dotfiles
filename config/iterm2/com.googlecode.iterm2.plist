@@ -2,16 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AppleAntiAliasingThreshold</key>
-	<integer>1</integer>
-	<key>ApplePressAndHoldEnabled</key>
-	<false/>
-	<key>AppleScrollAnimationEnabled</key>
-	<integer>0</integer>
-	<key>AppleSmoothFixedFontsSizeThreshold</key>
-	<integer>1</integer>
-	<key>AppleWindowTabbingMode</key>
-	<string>manual</string>
 	<key>Default Bookmark Guid</key>
 	<string>8CA9429A-3B90-4BD7-9E6D-F3B86525E273</string>
 	<key>HapticFeedbackForEsc</key>
@@ -230,6 +220,8 @@
 			<key>Description</key>
 			<string>Default</string>
 			<key>Disable Window Resizing</key>
+			<true/>
+			<key>Draw Powerline Glyphs</key>
 			<true/>
 			<key>Flashing Bell</key>
 			<false/>
@@ -538,6 +530,8 @@
 					<string>[1;5F</string>
 				</dict>
 			</dict>
+			<key>Minimum Contrast</key>
+			<real>0.0</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -547,7 +541,9 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 12</string>
+			<string>MesloLGS-NF-Regular 13</string>
+			<key>Only The Default BG Color Uses Transparency</key>
+			<true/>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -615,9 +611,9 @@
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SwitchTabModifier</key>
-	<integer>6</integer>
-	<key>SwitchWindowModifier</key>
 	<integer>4</integer>
+	<key>SwitchWindowModifier</key>
+	<integer>5</integer>
 	<key>UseVirtualKeyCodesForDetectingDigits</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
