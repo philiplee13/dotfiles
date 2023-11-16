@@ -6,12 +6,13 @@ local diagnostics = null_ls.builtins.diagnostics
 
 local opts = {
   sources = {
-    diagnostics.black.with({ extra_args = { " --fast" } }),
+    formatting.black,
     diagnostics.mypy,
-    diagnostics.ruff
-    -- null_ls.builtins.diagnostics.mypy,
-    -- null_ls.builtins.diagnostics.ruff,
-    -- null_ls.builtins.diagnostics.black,
+    diagnostics.ruff,
+    formatting.yamlfix,
+    formatting.yamlfmt,
+    diagnostics.tflint,
+    diagnostics.yamllint
   },
   on_attach = function(client, bufnr)
     if client.supports_method("textDocument/formatting") then
