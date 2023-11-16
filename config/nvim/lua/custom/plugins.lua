@@ -48,12 +48,21 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        -- python stuff
         "black",
         "pyright",
         "debugpy",
         "ruff",
-        "mypy"
-      },
+        "mypy",
+        -- yaml stuff
+        "yaml-language-server",
+        "yamlfix",
+        "yamlfmt",
+        "yamllint",
+        -- terraform stuff 
+        "tflint",
+        "terraform-ls"
+       },
     },
   },
   {
