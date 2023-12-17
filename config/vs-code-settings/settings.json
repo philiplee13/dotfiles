@@ -4,5 +4,49 @@
     "workbench.iconTheme": "vscode-icons",
     "vim.vimrc.enable": true,
     "editor.lineNumbers": "relative",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    // python stuff
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    // go stuff
+    "go.formatTool": "goimports",
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "gopls": {
+        "formatting.gofumpt": true
+    },
+    // yaml stuff
+    "[yaml]": {
+        "editor.autoIndent": "advanced"
+    },
+    // tf stuff
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file"
+    },
+    "[terraform-vars]": {
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file"
+    },
+    // docker stuff
+    "[dockercompose]": {
+        "editor.autoIndent": "advanced"
+    },
 }
