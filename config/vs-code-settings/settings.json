@@ -3,5 +3,6 @@
     "terminal.integrated.defaultProfile.osx": "zsh",
     "workbench.iconTheme": "vscode-icons",
     "vim.vimrc.enable": true,
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true
 }
