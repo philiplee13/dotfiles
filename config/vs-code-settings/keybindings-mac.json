@@ -24,4 +24,8 @@
         "command": "workbench.view.extensions",
         "when": "viewContainer.workbench.view.extensions.enabled"
     },
+    {
+        "key": "cmd+'",
+        "command": "workbench.action.toggleSidebarVisibility"
+    }
 ]
