@@ -49,4 +49,5 @@
     "[dockercompose]": {
         "editor.autoIndent": "advanced"
     },
+    // java stuff
 }

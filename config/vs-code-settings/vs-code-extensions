@@ -13,3 +13,7 @@ code --install-extension ms-python.vscode-pylance
 code --install-extension redhat.vscode-yaml
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension vscodevim.vim
+code --install-extension ms-vscode.makefile-tools
+code --install-extension redhat.java
+code --install-extension vscjava.vscode-gradle
+code --install-extension vscjava.vscode-java-debug

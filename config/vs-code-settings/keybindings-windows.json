@@ -1,0 +1,38 @@
+// Place your key bindings in this file to override the defaults
+[
+    // file explorer overwrite
+    {
+        "key": "ctrl+1",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    // git overwrite
+    {
+        "key": "ctrl+2",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    // debug
+    {
+        "key": "ctrl+3",
+        "command": "workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled"
+    },
+    // extensions
+    {
+        "key": "ctrl+4",
+        "command": "workbench.view.extensions",
+        "when": "viewContainer.workbench.view.extensions.enabled"
+    },
+    // ctrl f vim mode
+    {
+        "key": "ctrl+f",
+        "command": "-extension.vim_ctrl+f",
+        "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    // ctrl w close window
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    }
+]
