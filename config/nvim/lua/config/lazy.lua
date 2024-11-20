@@ -26,6 +26,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.python" },
     -- typescript
     { import = "lazyvim.plugins.extras.lang.typescript" },
+    -- prettier
+    { import = "lazyvim.plugins.extras.formatting.prettier" },
     -- java
     { import = "lazyvim.plugins.extras.lang.java" },
     -- yaml
