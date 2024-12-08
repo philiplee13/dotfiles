@@ -11,7 +11,7 @@ config.font_size = 15
 
 config.enable_tab_bar = false
 
-config.color_scheme = "Catppuccin Frappe"
+config.color_scheme = "Catppuccin Mocha"
 
 config.window_decorations = "RESIZE"
 
