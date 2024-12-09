@@ -10,8 +10,7 @@ config.font = wezterm.font("MesloLGS Nerd Font Mono")
 config.font_size = 15
 
 config.enable_tab_bar = false
-
-config.color_scheme = "Catppuccin Mocha"
+config.color_scheme = "Dracula (Official)"
 
 config.window_decorations = "RESIZE"
 
