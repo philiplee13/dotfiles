@@ -1,53 +1,76 @@
 {
-    "workbench.colorTheme": "Default Dark Modern",
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "workbench.iconTheme": "vscode-icons",
-    "vim.vimrc.enable": true,
-    "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "Default Dark Modern",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "workbench.iconTheme": "vscode-icons",
+  "vim.vimrc.enable": true,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  // python stuff
+  "[python]": {
     "editor.formatOnSave": true,
-    // python stuff
-    "[python]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.fixAll": true
-        },
-        "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
     },
-    // go stuff
-    "go.formatTool": "goimports",
-    "[go]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    },
-    "[go.mod]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    },
-    "gopls": {
-        "formatting.gofumpt": true
-    },
-    // yaml stuff
-    "[yaml]": {
-        "editor.autoIndent": "advanced"
-    },
-    // tf stuff
-    "[terraform]": {
-        "editor.defaultFormatter": "hashicorp.terraform",
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file"
-    },
-    "[terraform-vars]": {
-        "editor.defaultFormatter": "hashicorp.terraform",
-        "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file"
-    },
-    // docker stuff
-    "[dockercompose]": {
-        "editor.autoIndent": "advanced"
-    },
-    // java stuff
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  // go stuff
+  "go.formatTool": "goimports",
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "gopls": {
+    "formatting.gofumpt": true
+  },
+  // yaml stuff
+  "[yaml]": {
+    "editor.autoIndent": "advanced"
+  },
+  // tf stuff
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  // docker stuff
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced"
+  },
+  // typescript
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  // typescriptreact
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "java.configuration.runtimes": [],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "go.toolsManagement.autoUpdate": true,
+  "mypy-type-checker.args": ["--config-file=${workspaceFolder}/pyproject.toml"]
 }
+
