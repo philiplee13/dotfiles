@@ -54,5 +54,15 @@
     "key": "cmd+1",
     "command": "-workbench.action.focusFirstEditorGroup"
   }
+  // terminal
+  {
+    "key": "cmd+,",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "cmd+.",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  }
 ]
 
