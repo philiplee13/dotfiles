@@ -56,11 +56,11 @@
   }
   // terminal
   {
-    "key": "cmd+,",
+    "key": "cmd+.",
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "cmd+.",
+    "key": "cmd+,",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
   }
